@@ -1,0 +1,179 @@
+#body-header{
+    height:70vh;
+    background-image: url(https://wallpapercave.com/wp/ew0V5jf.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+.lists{
+    
+    list-style: none;
+    padding: 15px;
+    
+    text-align: center;
+    margin: 0px 8px 8px 0px;
+}
+.lists li a{
+    color: beige;
+    text-decoration: dotted;
+    padding-left: 30px;
+    transition: color 0.4s, border-bottom 0.5s;
+    
+}
+.lists li a:hover{
+    color: red;
+    
+    
+    
+}
+
+.lists li{
+    display: inline-block;
+    
+    
+}
+#myname{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: 12;
+    text-decoration: wavy;
+    font-style: oblique;
+    font-size: 50px;
+}
+.icons{
+    
+    text-decoration: dotted;
+    text-align: center;
+    list-style: none;
+    padding: 5px;
+    
+
+}
+.icons li {
+    display: inline-block;
+    padding-left: 30px;
+}
+.icons li a i:hover{
+    color: red;
+    border-bottom: solid white;
+}
+.icons li a i{
+    color: azure;
+    transition: color 0.5s;
+    
+}
+#myimage{
+    text-align: center;
+}
+#myimage img{
+    text-align: center;
+    width: 10%;
+    height=15%;
+    border-radius: 10%;
+    margin-top: -20vh;
+    position: relative;
+    border-bottom: 10;
+    
+}
+
+#about{
+    background-color: black;
+    text-decoration-color: aliceblue;
+    color: aliceblue;
+    
+}
+#para{
+    
+    text-rendering: geometricPrecision;
+    text-decoration-line: underline;
+}
+
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: black;
+    border-width: 10px;
+}
+section:nth-child(2n){
+    background-color: gray;
+    text-align: center;
+}
+section:nth-child(2n+1){
+    background-color: azure;
+}
+  /*.skillname1{
+    
+    width:13rem;
+    height:1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    border-color: black;
+
+}
+.skillname2{
+    
+    width:13rem;
+    height:1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    border-color: black;
+
+}*/
+#contact li{
+    text-align: end;
+    display: inline-block;
+    padding-right: 300px;
+    padding: 20px;
+
+}
+#contact li a:hover{
+    color: red;
+}
+
+ 
+.pyth{
+    background-color: lightpink;
+    border-radius: 0.6rem;
+}
+.java{
+    background-color: aquamarine;
+    border-radius: 0.6rem;
+}
+.c{
+    background-color: bisque;
+    border-radius: 0.6rem;
+}
+
+.htm{
+    background-color: aqua;
+    border-radius: 0.6rem;
+}
+.cs{
+    background-color: bisque;
+    border-radius: 0.6rem;
+}
+.js{
+    background-color: aquamarine;
+    border-radius: 0.6rem;
+}
+.njs{
+    background-color: bisque;
+    border-radius: 0.6rem;
+}
+.msoffice{
+    background-color: aquamarine;
+    border-radius: 0.6rem;
+}
+.speaking{
+    background-color: lawngreen;
+    border-radius: 0.6rem;
+}
